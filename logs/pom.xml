@@ -9,11 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>assemblies</artifactId>
+    <groupId>com.mjamsek.keycloak.logs</groupId>
+    <artifactId>keycloak-logs-extensions</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>user-management</module>
         <module>simple-logger</module>
     </modules>
 

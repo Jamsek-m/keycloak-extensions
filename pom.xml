@@ -16,9 +16,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>rest</module>
-        <module>common</module>
         <module>assemblies</module>
+        <module>common</module>
+        <module>rest</module>
+        <module>logs</module>
     </modules>
 
     <properties>
@@ -42,6 +43,11 @@
             <dependency>
                 <groupId>com.mjamsek.keycloak.rest</groupId>
                 <artifactId>user-management-rest-extension</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mjamsek.keycloak.logs</groupId>
+                <artifactId>simple-logger-extension</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
