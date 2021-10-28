@@ -20,6 +20,7 @@
         <module>common</module>
         <module>rest</module>
         <module>logs</module>
+        <module>themes</module>
     </modules>
 
     <properties>

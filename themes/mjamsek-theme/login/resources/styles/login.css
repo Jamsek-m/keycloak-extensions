@@ -1,0 +1,36 @@
+:root {
+    --clr-blue: #365880;
+    --clr-black: #202020;
+}
+
+.mj-html {
+    background-color: var(--clr-black);
+}
+.mj-body {
+    height: 100%;
+    background-color: var(--clr-black);
+}
+#kc-header-wrapper {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    white-space: normal;
+    padding: 50px 25px 20px;
+}
+.mj-card {
+    padding: 20px 40px 30px 40px;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+h1#kc-page-title {
+    margin-top: 10px;
+    color: white;
+}
+
+.mj-label {
+    color: white;
+}
+#kc-info-wrapper {
+    background-color: var(--clr-black);
+}
