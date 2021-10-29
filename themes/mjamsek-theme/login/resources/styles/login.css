@@ -1,6 +1,21 @@
 :root {
+    --clr-white: #ffffff;
     --clr-blue: #365880;
     --clr-black: #202020;
+    --clr-red: #710606;
+    --clr-green: #006300;
+    --clr-light-grey: #ccc;
+    --roboto-font: 'Roboto', sans-serif;
+    --montserrat-font: 'Montserrat', sans-serif;
+}
+
+* {
+    font-family: var(--montserrat-font);
+    color: var(--clr-white);
+}
+h1, h2, h3, h4 {
+    font-family: var(--roboto-font);
+    margin: 0;
 }
 
 .mj-html {
@@ -16,6 +31,7 @@
     letter-spacing: 3px;
     white-space: normal;
     padding: 50px 25px 20px;
+    text-align: center;
 }
 .mj-card {
     padding: 20px 40px 30px 40px;
@@ -33,4 +49,35 @@ h1#kc-page-title {
 }
 #kc-info-wrapper {
     background-color: var(--clr-black);
+}
+
+.mj-form-control {
+    font-size: 1.1rem;
+    height: 38px;
+    width: 100%;
+    border: 1px solid hsl(0, 0%, 10%);
+    color: var(--clr-white);
+    background: hsl(0, 0%, 16%);
+    border-radius: 5px;
+    padding: 5px 0.5rem;
+}
+.mj-form-control:hover {
+    background: hsl(0, 0%, 20%);
+}
+.mj-form-control[aria-invalid="true"] {
+    border: 2px solid var(--clr-red);
+}
+.mj-form-control[aria-invalid="true"]:focus {
+    outline: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+#kc-login {
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    line-height: 32px;
+    border-radius: 5px;
 }
